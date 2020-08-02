@@ -1,5 +1,6 @@
 // Import stylesheets
 import './style.css';
+//import methods
 import {addNumbers} from './operations/sum.js';
 import {subNumbers} from './operations/subtraction.js';
 import {multiplyNumbers} from './operations/multiplication.js';
@@ -9,6 +10,7 @@ import {divNubers} from './operations/division.js';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
+//varibles for test integers
 var num1 = 3;
 var num2 = 7;
 
